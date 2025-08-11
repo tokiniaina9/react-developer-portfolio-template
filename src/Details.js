@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.png";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -35,16 +35,16 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Tokiniaina ANDRIAHARIVONY",
+  tagline: "Software engineer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Around 5 years of experience as a Sofware developper, both front and backend. Also, I've been à database administrator for 2.5 years. Designing is one of my passions.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/tokiniaina-andriaharivony/",
+  github: "https://github.com/tokiniaina9",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -52,43 +52,50 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Software developer",
+    Company: `FID (Fondd d'Intervention pour le Developpements)`,
+    Location: "Antananarivo, Madagascar",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "July 2024 - Present",
+  },
+  {
+    Position: "Database administrator",
+    Company: `Ambatovy (Madacan)`,
+    Location: "Toamasina, Madagascar",
+    Type: "Full time",
+    Duration: "May 2022 - July 2024",
+  },
+  {
+    Position: "Sofware developper",
+    Company: `Pentadev Mada`,
+    Location: "Toamasina",
+    Type: "Hybrid",
+    Duration: "Jan 2019 - july 2022",
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Company: `University of Toamasina`,
+    Location: "Toamasina",
+    Type: "Hybrid",
+    Duration: "Jan 2019 - Sept 2019",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Master on computer science (Software developer)",
+    Company: "Univerisity of Toamasina",
+    Location: "Toamasina, Madagascar",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jan 2018 - July 2019",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "License on Maths and computer science",
+    Company: `University of Toamasina`,
+    Location: "Toamasina, Madagascar",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Jan 2016 - Jun 2017",
   },
 ];
 
@@ -100,7 +107,7 @@ export const techStackDetails = {
   react: react,
   redux: redux,
   sass: sass,
-  tailwind: tailwind,
+  // tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
   postman: postman,
@@ -113,7 +120,7 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "S",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
@@ -171,5 +178,5 @@ project lorem ipsum generator for dummy content`,
 // Enter your Contact Details here
 export const contactDetails = {
   email: "hi@example.com",
-  phone: "+91 12345 67890",
+  phone: "+261 01 933 01",
 };
