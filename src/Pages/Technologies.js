@@ -33,8 +33,8 @@ function Technologies() {
         <img src={css} title="CSS" alt="" />
         <img src={js} title="JavaScript" alt="" />
         <img src={react} title="React" alt="" />
-        <img src={redux} title="Redux" alt="" />
-        <img src={tailwind} title="Tailwind CSS" alt="" />
+        {/* <img src={redux} title="Redux" alt="" /> */}
+        {/* <img src={tailwind} title="Tailwind CSS" alt="" /> */}
         <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={sass} title="SASS" alt="" />
       </section>
@@ -47,7 +47,7 @@ function Technologies() {
         <img src={vscode} title="Visual Studio Code" alt="" />
         <img src={git} title="Git" alt="Git" />
         <img src={github} title="Github" alt="Github" />
-        <img src={figma} title="Figma" alt="Figma" />
+        {/* <img src={figma} title="Figma" alt="Figma" /> */}
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
       </section>
