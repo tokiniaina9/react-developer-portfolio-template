@@ -19,6 +19,11 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import python from "./assets/techstack/Python.png"
+import node from "./assets/techstack/Node.png"
+import java from "./assets/techstack/Java.png"
+import php from "./assets/techstack/php 1.png"
+import mysql from "./assets/techstack/Mysql.png"
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -38,7 +43,7 @@ export const personalDetails = {
   name: "Tokiniaina ANDRIAHARIVONY",
   tagline: "Software engineer",
   img: profile,
-  about: `Around 5 years of experience as a Sofware developper, both front and backend. Also, I've been à database administrator for 2.5 years. Designing is one of my passions.`,
+  about: `Around 5 years of experience as a Sofware developer, both front and backend. Also, I've been à database administrator for 2.5 years. Designing is one of my passions.`,
 };
 
 // Enter your Social Media URLs here
@@ -46,14 +51,14 @@ export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/tokiniaina-andriaharivony/",
   github: "https://github.com/tokiniaina9",
   twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/toky.001/",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
     Position: "Software developer",
-    Company: `FID (Fondd d'Intervention pour le Developpements)`,
+    Company: `FID (Fonds d'Intervention pour le Developpements)`,
     Location: "Antananarivo, Madagascar",
     Type: "Full Time",
     Duration: "July 2024 - Present",
@@ -115,6 +120,11 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  python: python,
+  java : java,
+  php: php,
+  node: node,
+  mysql:mysql,
 };
 
 // Enter your Project Details here
@@ -177,6 +187,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
+  email: "tokiniaina99@gmail.com",
   phone: "+261 01 933 01",
 };

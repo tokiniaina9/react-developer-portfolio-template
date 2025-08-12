@@ -1,13 +1,42 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
   const { linkdein, github, twitter } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
+
+  const menu = [
+    {
+      link: "/",
+      lable: "Home",
+      icon: null,
+    },
+    {
+      link: "/about",
+      lable: "About",
+      icon: null,
+    },
+    {
+      link: "/technologies",
+      lable: "Technologies",
+      icon: null,
+    },
+    {
+      link: "/projects",
+      lable: "Projects",
+      icon: null,
+    },
+    {
+      link: "/contact",
+      lable: "Contact",
+      icon: null,
+    },
+  ];
 
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
@@ -33,33 +62,41 @@ function Header() {
           </svg>
         </div>
       </div>
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
+      <nav
+        className={` ${
+          !isOpen ? "hidden" : null
+        } text-center md:flex justify-between`}
+      >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggleClass}>
-              Home
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/about" onClick={toggleClass}>
-              About
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
-              Technologies
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/projects" onClick={toggleClass}>
-              Projects
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact" onClick={toggleClass}>
-              Contact
-            </NavLink>
-          </li>
+          {menu.map((item, idx) => (
+            <li
+              key={idx}
+              style={{
+                cursor: "pointer",
+                padding: "3px 10px 3px 10px",
+                borderRadius: 5,
+                borderColor:
+                  location.pathname === item.link
+                    ? "rgba(11, 7, 247, 0.17)"
+                    : "",
+                color:
+                  location.pathname === item.link
+                    ? "#fff"
+                    : "",
+                borderStyle: location.pathname === item.link ? "solid" : "",
+                borderWidth: location.pathname === item.link ? "1px" : "",
+                borderLeftWidth: location.pathname === item.link ? "1px" : "",
+                background:
+                  location.pathname === item.link
+                    ? "rgba(54, 51, 223, 0.8)"
+                    : "",
+              }}
+            >
+              <NavLink to={item.link} onClick={toggleClass}>
+                {item.lable}
+              </NavLink>
+            </li>
+          ))}
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
