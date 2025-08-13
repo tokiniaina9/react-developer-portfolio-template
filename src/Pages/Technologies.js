@@ -1,5 +1,6 @@
 import React from "react";
 import { techStackDetails } from "../Details";
+import { Divider } from "@mui/material";
 
 function Technologies() {
   const {
@@ -22,6 +23,10 @@ function Technologies() {
     php,
     python,
     mysql,
+    Sqlite,
+    mariaDb,
+    msaccess,
+    excel
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -32,6 +37,10 @@ function Technologies() {
         <p className="text-content py-2 lg:max-w-3xl">
           Technologies I've been working with recently
         </p>
+        <br />
+        <h5 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
+          Front-end
+        </h5>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
         <img src={html} title="html" alt="" />
@@ -42,9 +51,32 @@ function Technologies() {
         {/* <img src={tailwind} title="Tailwind CSS" alt="" /> */}
         <img src={bootstrap} title="Bootstrap" alt="" />
         <img src={sass} title="SASS" alt="" />
-        <img src={php} title="SASS" alt="" />
-        <img src={node} title="SASS" alt="" />
-        <img src={mysql} title="SASS" alt="" />
+      </section>
+      <section>
+        <br />
+        <br />
+        <h5 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
+          Back-end
+        </h5>
+      </section>
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+        <img src={php} title="PHP" alt="" />
+        <img src={node} title="Node" alt="" />
+        <img src={java} title="java" alt="" />
+        <img src={python} title="python" alt="" />
+      </section>
+      <section>
+        <br />
+        <br />
+        <h5 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
+          Database
+        </h5>
+      </section>
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+        <img src={mysql} title="Mysql" alt="" />
+        <img src={mariaDb} title="mariaDb" alt="" />
+        <img src={Sqlite} title="SQLite" alt="" />
+        <img src={msaccess} title="Mcrosoft access" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -58,6 +90,7 @@ function Technologies() {
         {/* <img src={figma} title="Figma" alt="Figma" /> */}
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
+        <img src={excel} title="Excel" alt="Postman" />
       </section>
     </main>
   );

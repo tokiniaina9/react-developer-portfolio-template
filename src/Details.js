@@ -19,11 +19,15 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
-import python from "./assets/techstack/Python.png"
-import node from "./assets/techstack/Node.png"
-import java from "./assets/techstack/Java.png"
-import php from "./assets/techstack/php 1.png"
-import mysql from "./assets/techstack/Mysql.png"
+import python from "./assets/techstack/python.png";
+import node from "./assets/techstack/Node.png";
+import java from "./assets/techstack/Java.png";
+import php from "./assets/techstack/php 1.png";
+import mysql from "./assets/techstack/Mysql.png";
+import sqlLite from "./assets/techstack/sqlite.png";
+import mariaDb from "./assets/techstack/mariadb.png";
+import msaccess from "./assets/techstack/Ms_access.png";
+import excel from "./assets/techstack/Excel.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -43,14 +47,14 @@ export const personalDetails = {
   name: "Tokiniaina ANDRIAHARIVONY",
   tagline: "Software engineer",
   img: profile,
-  about: `Around 5 years of experience as a Sofware developer, both front and backend. Also, I've been à database administrator for 2.5 years. Designing is one of my passions.`,
+  about: `Around 5 years of experience as a Sofware developer, both front and backend. Also, I've been a database administrator for 2.5 years. Designing is one of my passions.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/tokiniaina-andriaharivony/",
   github: "https://github.com/tokiniaina9",
-  twitter: "https://twitter.com/",
+  twitter: "https://x.com/tokiniaina99",
   instagram: "https://www.instagram.com/toky.001/",
 };
 
@@ -121,10 +125,14 @@ export const techStackDetails = {
   github: github,
   figma: figma,
   python: python,
-  java : java,
+  java: java,
   php: php,
   node: node,
-  mysql:mysql,
+  mysql: mysql,
+  mariaDb: mariaDb,
+  Sqlite: sqlLite,
+  msaccess: msaccess,
+  excel:excel
 };
 
 // Enter your Project Details here
@@ -132,8 +140,7 @@ export const projectDetails = [
   {
     title: "S",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -141,8 +148,7 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Project title 2",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -188,5 +194,5 @@ project lorem ipsum generator for dummy content`,
 // Enter your Contact Details here
 export const contactDetails = {
   email: "tokiniaina99@gmail.com",
-  phone: "+261 01 933 01",
+  phone: "+261 34 01 933 01",
 };
