@@ -16,7 +16,7 @@ function Technologies() {
     java,
     node,
     php,
-    python,
+    // python,
     mysql,
     Sqlite,
     mariaDb,
@@ -55,7 +55,7 @@ function Technologies() {
         <img src={php} title="PHP" alt="" />
         <img src={node} title="Node" alt="" />
         <img src={java} title="java" alt="" />
-        <img src={python} title="python" alt="" />
+        {/* <img src={python} title="python" alt="" /> */}
       </section>
       <section>
         <h5 className=" mt-10 text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
