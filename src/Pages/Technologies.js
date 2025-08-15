@@ -47,7 +47,7 @@ function Technologies() {
         <img src={sass} title="SASS" alt="" />
       </section>
       <section>
-        <h5 mt-10 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
+        <h5 className=" mt-10 text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           Back-end
         </h5>
       </section>
