@@ -1,6 +1,4 @@
-import React from "react";
 import { techStackDetails } from "../Details";
-import { Divider } from "@mui/material";
 
 function Technologies() {
   const {
@@ -8,8 +6,6 @@ function Technologies() {
     css,
     js,
     react,
-    redux,
-    tailwind,
     bootstrap,
     sass,
     vscode,
@@ -17,7 +13,6 @@ function Technologies() {
     github,
     npm,
     postman,
-    figma,
     java,
     node,
     php,
@@ -37,8 +32,7 @@ function Technologies() {
         <p className="text-content py-2 lg:max-w-3xl">
           Technologies I've been working with recently
         </p>
-        <br />
-        <h5 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
+        <h5 className=" mt-10 text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           Front-end
         </h5>
       </section>
@@ -53,9 +47,7 @@ function Technologies() {
         <img src={sass} title="SASS" alt="" />
       </section>
       <section>
-        <br />
-        <br />
-        <h5 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
+        <h5 mt-10 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           Back-end
         </h5>
       </section>
@@ -66,9 +58,7 @@ function Technologies() {
         <img src={python} title="python" alt="" />
       </section>
       <section>
-        <br />
-        <br />
-        <h5 className=" text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
+        <h5 className=" mt-10 text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           Database
         </h5>
       </section>
