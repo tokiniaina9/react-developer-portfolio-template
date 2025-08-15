@@ -19,7 +19,7 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
-import python from "./assets/techstack/python.png";
+import python from "./assets/techstack/python1.png";
 import node from "./assets/techstack/Node.png";
 import java from "./assets/techstack/Java.png";
 import php from "./assets/techstack/php 1.png";
