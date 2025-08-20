@@ -76,14 +76,14 @@ export const workDetails = [
   {
     Position: "Sofware developper",
     Company: `Pentadev Mada`,
-    Location: "Toamasina",
+    Location: "Toamasina, Madagascar",
     Type: "Hybrid",
     Duration: "Jan 2019 - july 2022",
   },
   {
-    Position: "Internship",
+    Position: "Sofware developper (Internship)",
     Company: `University of Toamasina`,
-    Location: "Toamasina",
+    Location: "Toamasina, Madagascar",
     Type: "Hybrid",
     Duration: "Jan 2019 - Sept 2019",
   },
@@ -97,6 +97,7 @@ export const eduDetails = [
     Location: "Toamasina, Madagascar",
     Type: "Full Time",
     Duration: "Jan 2018 - July 2019",
+    exp : "1 year"
   },
   {
     Position: "License on Maths and computer science",
@@ -104,6 +105,7 @@ export const eduDetails = [
     Location: "Toamasina, Madagascar",
     Type: "Full Time",
     Duration: "Jan 2016 - Jun 2017",
+    exp: "1 year"
   },
 ];
 
@@ -123,7 +125,7 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
-  // python: python,
+  python: python,
   java: java,
   php: php,
   node: node,
@@ -137,20 +139,20 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "S",
+    title: "Inventory and Sales Management",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A multi-user desktop application for inventory and sales management. The app allows users to monitor stock levels, track incoming and outgoing products, and manage commercial transactions efficiently. It is designed to streamline storage operations and support multiple users working simultaneously.`,
+    techstack: "Java, JavaFX",
+    previewLink: null,
+    githubLink: null,
   },
   {
-    title: "Project title 2",
+    title: "School Management",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `A multi-user desktop application for managing a school or institute. It allows management of student registrations, payment of registration and tuition fees, as well as attendance tracking. The application facilitates administrative follow-up, payment management, and attendance recording, while providing secure access for multiple users.`,
+    techstack: "Java, JavaFX",
+    previewLink: null,
+    githubLink: null,
   },
   {
     title: "Project title 3",
